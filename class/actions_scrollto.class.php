@@ -26,6 +26,7 @@
 /**
  * Class ActionsScrollTo
  */
+
 class ActionsScrollTo
 {
 	/**
