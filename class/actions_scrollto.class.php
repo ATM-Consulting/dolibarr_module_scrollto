@@ -27,7 +27,9 @@
  * Class ActionsScrollTo
  */
 
-class ActionsScrollTo
+require_once __DIR__.'/../backport/v19/core/class/commonhookactions.class.php';
+
+class ActionsScrollTo extends \scrollto\RetroCompatCommonHookActions
 {
 	/**
 	 * @var array Hook results. Propagated to $hookmanager->resArray for later reuse
